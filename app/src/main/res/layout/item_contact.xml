@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:id="@+id/contact_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:paddingStart="10dp">
+
+    <TextView
+        android:id="@+id/tv_kid_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_content_kid_name_ph"
+        android:textSize="28sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_kid_contact_img"
+            android:layout_width="80dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_kid_img_placeholder"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_kid_contact_mother"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:textSize="20sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/item_content_mother"/>
+
+                <TextView
+                    android:id="@+id/tv_kid_contact_mother_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="@string/item_content_mother_name_ph"/>
+
+                <ImageButton
+                    android:id="@+id/ib_kid_contact_mother_call"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:layout_gravity="end"
+                    android:background="@color/trans"
+                    android:src="@drawable/ic_call"/>
+
+                <ImageButton
+                    android:id="@+id/ib_kid_contact_mother_message"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:background="@color/trans"
+                    android:src="@drawable/ic_amessage"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_kid_contact_father"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:textSize="20sp"
+                    android:text="@string/item_content_father"/>
+
+
+                <TextView
+                    android:id="@+id/tv_kid_contact_father_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="@string/item_content_father_name_ph"/>
+                <ImageButton
+                    android:id="@+id/ib_kid_contact_father_call"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:background="@color/trans"
+                    android:src="@drawable/ic_call"/>
+
+                <ImageButton
+                    android:id="@+id/ib_kid_contact_father_message"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:background="@color/trans"
+                    android:src="@drawable/ic_amessage"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

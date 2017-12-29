@@ -1,0 +1,58 @@
+{
+  "kids" : [ {
+    "gender" : "m",
+    "image" : "Amit.jpeg",
+    "name" : "עמית סייג",
+    "relatives" : [{
+      "relation" : "father",
+      "name" : "אסי סייג",
+      "number" : "054-4411666"
+    },{
+      "relation" : "mother",
+      "name" : "דקלה סייג",
+      "number" : "054-9997877"
+    },{
+      "relation" : "gmother",
+      "name" : "יסמין סייג",
+      "number" : "054-7411644"
+    }, {
+      "relation" : "gfather",
+      "name" : "דוד סייג",
+      "number" : "054-4411600"
+    } ]
+  }, {
+    "gender" : "m",
+    "image" : "Amit.jpeg",
+    "name" : "עמית בוולנגי",
+    "relatives" : [{
+      "relation" : "father",
+      "name" : "דניאל בוולנגי",
+      "number" : "054-4411666"
+    },{
+      "relation" : "mother",
+      "name" : "אסתר בוולנגי",
+      "number" : "054-9997877"
+    },{
+      "relation" : "gmother",
+      "name" : "סבתא",
+      "number" : "054-7411644"
+    }]
+    }, {
+      "gender" : "f",
+      "image" : "",
+      "name" : "אריאל בוולנגי",
+      "relatives" : [{
+        "relation" : "father",
+        "name" : "דניאל בוולנגי",
+        "number" : "054-4411666"
+      },{
+        "relation" : "mother",
+        "name" : "אסתר בוולנגי",
+        "number" : "054-9997877"
+      },{
+        "relation" : "gmother",
+        "name" : "סבתא",
+        "number" : "054-7411644"
+      } ]
+  } ]
+}

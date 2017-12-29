@@ -1,0 +1,30 @@
+{
+  "kids" : [ {
+    "father-name" : "אסי",
+    "father-phone" : "054-4411666",
+    "gender" : "m",
+    "image" : "",
+    "mother-name" : "דקלה",
+    "mother-phone" : "054-9997877",
+    "name" : "עמית סייג",
+    "related-people" : [ {
+      "name" : "יסמין סייג",
+      "number" : "054-7411644"
+    }, {
+      "name" : "דוד סייג",
+      "number" : "054-4411600"
+    } ]
+  }, {
+    "father-name" : "דניאל",
+    "father-phone" : "054-4411666",
+    "gender" : "m",
+    "image" : "",
+    "mother-name" : "אסתר",
+    "mother-phone" : "054-9997877",
+    "name" : "עמית בוולנגי",
+    "related-people" : [ {
+      "name" : "סבתא",
+      "number" : "054-7411644"
+    } ]
+  } ]
+}
